@@ -1,0 +1,19 @@
+[chapter]
+= Bibliography
+
+.Articles
+
+[bibliography]
+
+
+.Websites
+
+[bibliography]
+- {url-ethereum}[Ethereum Project]
+- https://github.com/ethereum/wiki/wiki[The Ethereum Wiki]
+- https://geth.ethereum.org[Official Go Ethereum Implementation]
+
+
+.References
+
+[bibliography]

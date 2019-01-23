@@ -1,0 +1,9 @@
+[epigraph]
+= Epigraph
+
+
+[verse, Lewis Caroll, Alice in Wonderland]
+____
+Alice: How long is forever?
+White Rabbit: Sometimes, just one second.
+____

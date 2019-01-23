@@ -1,0 +1,109 @@
+:author: Edward Fitz Abucay
+:email: eabucay@protonmail.com
+:revnumber: 0.1
+:revdate: {docdate}
+:revremark: Draft
+:version-label!:
+:doctype: book
+:doctitle: Solidity: Creating ICO Smart Contract From Scratch
+:description: Learn how to create an solidity ICO smart contract from zero to hero.
+:keywords: ethereum, ico, smart contract, programming
+:toc:
+:toclevels: 2
+:sectnumlevels: 2
+:icons: font
+:icon-set: fa
+:stem:
+:hide-uri-scheme:
+:source-highlighter: pygments
+:pygments-style: xcode
+:imagesdir: assets/images
+:chapter-label: Chapter
+:appendix-caption: Appendix
+:creator: {author}
+:uuid: e9a22dcf-2d0a-4237-addd-527fb847d816
+:front-cover-image: image:cover.png[cover,1050,1600]
+:title-logo-image: image:logo.svg[pdfwidth=4.25in,align=center]
+:copyright: (c) {docyear} Where It All Started Press
+:lang: en
+:sourcedir: {docdir}/samples/code
+:datadir: {docdir}/samples/data
+:url-ethereum: https://www.ethereum.org
+:nofooter:
+
+ifdef::backend-html5[]
+:data-uri:
+:stylesdir: {docdir}/assets/styles/html/themes
+:stylesheet: asciidoctor.css
+:linkcss:
+:mathematical-format: svg
+:mathematical-ppi: 300
+endif::[]
+
+ifdef::backend-pdf[]
+:media: prepress
+:pdf-stylesdir: {docdir}/assets/styles/pdf/themes
+:pdf-style: custom
+:mathematical-format: png
+endif::[]
+
+ifdef::backend-epub3[]
+:epub3-stylesdir: {docdir}/assets/styles/epub/themes
+:ebook-validate:
+:mathematical-format: svg
+:mathematical-ppi: 300
+endif::[]
+
+ifdef::ebook-format-kf8[]
+// Some settings
+endif::[]
+
+= {doctitle}
+
+:sectnums!:
+
+include::chapters/colophon.adoc[]
+
+include::chapters/preface.adoc[]
+
+
+
+ifndef::backend-epub3[:leveloffset: +1]
+
+include::chapters/dedication.adoc[]
+
+ifndef::backend-epub3[:leveloffset: -1]
+
+
+
+ifdef::backend-pdf[]
+include::chapters/epigraph.adoc[]
+endif::[]
+
+
+
+:sectnums:
+
+
+
+ifndef::backend-epub3[:leveloffset: +1]
+
+include::chapters/chapter_01.adoc[]
+
+include::chapters/chapter_02.adoc[]
+
+ifndef::backend-epub3[:leveloffset: -1]
+
+
+
+include::chapters/appendix.adoc[]
+
+include::chapters/glossary.adoc[]
+
+include::chapters/bibliography.adoc[]
+
+
+
+ifdef::backend-pdf[]
+include::chapters/index.adoc[]
+endif::[]

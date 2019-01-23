@@ -1,0 +1,6 @@
+[glossary]
+= Glossary
+
+[glossary]
+ethereum:: An open-source, public, blockchain-based distributed computing platform and operating system featuring smart contract functionality.
+smart contract:: A computer protocol intended to digitally facilitate, verify, or enforce the negotiation or performance of a contract. Smart contracts allow the performance of credible transactions without third parties.
